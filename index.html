@@ -6,16 +6,58 @@
   <title>Matt Cabezon</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  <script src="js/jquery.js"></script>
+  <script src="javascript/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="javascript/scripts.js"></script>
 </head>
 <body>
-  <a class="waves-effect waves-light btn-large mainMenu">Click To Enter</a>
+
+  <!--   on page load this should show up -->
+  <nav class="blue-grey darken-4">
+  <a class="red darken-4 waves-effect waves-light btn-large toggleMenu">Toggle Menu</a>
+  </nav>
   <div class="homepage">
     <h1>Matt Cabezon</h1>
     <h3>Full Stack Web Developer</h3>
     <h3>Brooklyn, New York</h3>
   </div>
+
+  <div class="menu slide">
+    <div class="aboutMeBtn selected"><h1>About Me</h1></div>
+    <div class="projectsBtn selected"><h1>Projects</h1></div>
+    <div class="contactBtn selected"><h1>Contact</h1></div>
+<!--     <div class=""><h1>Interests and Hobbies</h1></div> -->
+  </div>
+
+  <div class="aboutMe slide">
+    <h2>Who Am I?</h2><br />
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, inventore, asperiores? Cumque illo, iste ut consequuntur ipsum, unde non iusto culpa, laudantium officia quas dolorum laboriosam repudiandae! Cum, distinctio, adipisci.
+    </p>
+  </div>
+
+  <div class="projects slide">
+    <h1>Projects</h1>
+    <div class="row container">
+      <div class="col s4">
+        <h3>Click and Catch!</h3>
+        <a href="https://mcabz27.github.io/project-one/"><div class="projPic1 pic"></div></a>
+      </div>
+      <div class="col s4">
+        <h3>My Beer List</h3>
+        <a href="https://my-beer-list.herokuapp.com/"><div class="projPic2 pic"></div></a>
+      </div>
+      <div class="col s4">
+        <h3>GA Lunch Break</h3>
+        <a href="https://ga-lunch-break.herokuapp.com"><div class="projPic3 pic"></div></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact slide">
+    <a href="https://www.linkedin.com/in/matthew-cabezon"><h2>LinkedIn</h2></a>
+    <a href="mailto:matt.cabezon@gmail.com"><h2>Email</h2></a>
+    <a href="https://www.github.com/mcabz27"><h2>GitHub</h2></a>
+  </div>
+
 </body>
 </html>

@@ -3,6 +3,10 @@ body {
   color: #ffffff;
 }
 
+.selected {
+  cursor: crosshair;
+}
+
 .btn-large {
   margin-left: 43.2%;
   margin-right: 50%;
@@ -24,4 +28,34 @@ body {
 
 .homepage h3 {
   text-align: center;
+}
+
+.slide {
+  padding-top: 4.5em;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #25b24b;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  transition: opacity 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.pic {
+  width: 313px;
+  height: 200px;
+  background-size: cover;
+}
+
+.projPic1 {
+  background-image: url('../img/proj1.png')
+}
+
+.projPic2 {
+  background-image: url('../img/proj2.png')
+}
+
+.projPic3 {
+  background-image: url('../img/proj3.png')
 }
