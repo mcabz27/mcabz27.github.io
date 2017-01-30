@@ -1,10 +1,48 @@
 body {
   background-image: url('../img/Jays-lights-GE-REPORT.png');
   color: #ffffff;
+  font-family: 'Alegreya', serif;
+}
+
+nav {
+
+}
+
+.slide {
+  padding-top: 2.5em;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: #004d40;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  transition: opacity 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contact {
+  background-color: #311b92;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact a:hover {
+  color: #aaaaaa;
+}
+
+.aboutMe {
+  background-color: #aeea00;
 }
 
 .selected {
   cursor: crosshair;
+}
+
+.selected:hover {
+  color: #aaaaaa;
 }
 
 .btn-large {
@@ -30,16 +68,8 @@ body {
   text-align: center;
 }
 
-.slide {
-  padding-top: 4.5em;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  background-color: #25b24b;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  transition: opacity 1.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+.projects {
+  background-color: #01579b;
 }
 
 .pic {

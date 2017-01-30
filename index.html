@@ -6,6 +6,7 @@
   <title>Matt Cabezon</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
   <script src="javascript/jquery.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
   <script src="javascript/scripts.js"></script>
@@ -13,8 +14,8 @@
 <body>
 
   <!--   on page load this should show up -->
-  <nav class="blue-grey darken-4">
-  <a class="red darken-4 waves-effect waves-light btn-large toggleMenu">Toggle Menu</a>
+  <nav class="">
+  <a class="red darken-4 waves-effect waves-light btn-large toggleMenu">Open Menu</a>
   </nav>
   <div class="homepage">
     <h1>Matt Cabezon</h1>
@@ -25,14 +26,16 @@
   <div class="menu slide">
     <div class="aboutMeBtn selected"><h1>About Me</h1></div>
     <div class="projectsBtn selected"><h1>Projects</h1></div>
-    <div class="contactBtn selected"><h1>Contact</h1></div>
+    <div class="contactBtn selected"><h1>Contact Me</h1></div>
 <!--     <div class=""><h1>Interests and Hobbies</h1></div> -->
   </div>
 
   <div class="aboutMe slide">
     <h2>Who Am I?</h2><br />
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, inventore, asperiores? Cumque illo, iste ut consequuntur ipsum, unde non iusto culpa, laudantium officia quas dolorum laboriosam repudiandae! Cum, distinctio, adipisci.
-    </p>
+    <div class="container">
+      <h5>I am a Brooklyn based full stack web developer looking to grow my knowledge and skills as a coder.
+      </h5>
+    </div>
   </div>
 
   <div class="projects slide">
@@ -40,15 +43,27 @@
     <div class="row container">
       <div class="col s4">
         <h3>Click and Catch!</h3>
-        <a href="https://mcabz27.github.io/project-one/"><div class="projPic1 pic"></div></a>
+        <a href="https://mcabz27.github.io/project-one/"><div class="projPic1 pic hoverable"></div></a>
+        <p>Source Code: <a href="https://github.com/mcabz27/project-one">GitHub</a></p>
+        <p>
+          I started off wanting to build a game that involved my favorite sport, baseball.  So i decided to program a game where the user has to "catch" or click baseballs as they rained down from the skies.  If the ball hits the ground the user gets a strike, and three strikes and the game is over.
+        </p>
       </div>
       <div class="col s4">
         <h3>My Beer List</h3>
-        <a href="https://my-beer-list.herokuapp.com/"><div class="projPic2 pic"></div></a>
+        <a href="https://my-beer-list.herokuapp.com/"><div class="projPic2 pic hoverable"></div></a>
+        <p>Source Code: <a href="https://github.com/mcabz27/Beer-List">GitHub</a></p>
+        <p>
+          This is a CRUD app I designed so that users who sign in can save and search for different beers.
+        </p>
       </div>
       <div class="col s4">
         <h3>GA Lunch Break</h3>
-        <a href="https://ga-lunch-break.herokuapp.com"><div class="projPic3 pic"></div></a>
+        <a href="https://ga-lunch-break.herokuapp.com"><div class="projPic3 pic hoverable"></div></a>
+        <p>Source Code: <a href="https://github.com/mcabz27/GA-Lunch-Break-App">GitHub</a></p>
+        <p>
+          This was an app built in a group of five that is meant for incoming and current General Assembly students. GA Lunch Break is designed to give students, incoming and current, a place to show other students where the great places to eat and hang out are.  Without signing in, guests can look at previously saved destinations. Once a guest signs in he or she can save their own favorite hotspots around General Assembly for the rest of the users to see.
+        </p>
       </div>
     </div>
   </div>
