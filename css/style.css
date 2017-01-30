@@ -4,12 +4,8 @@ body {
   font-family: 'Alegreya', serif;
 }
 
-nav {
-
-}
-
 .slide {
-  padding-top: 2.5em;
+  padding-top: 1.5em;
   height: 100%;
   width: 100%;
   position: fixed;
