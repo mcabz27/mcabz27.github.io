@@ -80,6 +80,11 @@ img {
   background-color: #01579b;
 }
 
+.projects a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 .pic {
   width: 313px;
   height: 200px;
