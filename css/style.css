@@ -4,8 +4,20 @@ body {
   font-family: 'Alegreya', serif;
 }
 
+img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  z-index: 9; /* http://stackoverflow.com/questions/18729338/how-to-make-a-div-appear-on-top-of-everything-else-on-the-screen */
+}
+
+.toggleMenu {
+  cursor: pointer;
+}
+
 .slide {
-  padding-top: 1.5em;
+  padding-top: 1em;
   height: 100%;
   width: 100%;
   position: fixed;
